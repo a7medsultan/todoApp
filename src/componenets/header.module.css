@@ -1,0 +1,9 @@
+.header{
+    background-color: brown;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+    height: 50px;
+    font-size: 24px;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,31 @@
+.form {
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.input {
+  display: block;
+  border: none;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border-bottom: 1px dotted brown;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  background-color: brown;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.inputGroup {
+  display: flex;
+}

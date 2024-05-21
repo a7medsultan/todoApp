@@ -1,9 +1,12 @@
-import { useState } from "react";
+import Header from "./componenets/Header";
+import Todo from "./componenets/Todo";
+import "./app.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Vite + React</h1>
+      <Header />
+      <Todo />
     </div>
   );
 }
